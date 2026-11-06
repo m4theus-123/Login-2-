@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Acesse sua conta NexaTech para continuar." />
+    <title>Login | NexaTech</title>
+    <link rel="stylesheet" href="Login2.css" />
+  </head>
+  <body>
+    <main class="login-page">
+      <section class="login-shell" aria-labelledby="login-title">
+        <div class="brand" aria-label="NexaTech">
+          <span class="brand-mark" aria-hidden="true">N</span>
+          <span class="brand-name">nexa<span>tech</span></span>
+        </div>
+
+        <div class="login-heading">
+          <h1 id="login-title">Acesse sua conta</h1>
+        </div>
+
+        <form class="login-form" action="#" method="post">
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="voce@exemplo.com"
+              autocomplete="email"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <div class="label-row">
+              <label for="password">Senha</label>
+              <a href="#">Esqueceu sua senha?</a>
+            </div>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              placeholder="Digite sua senha"
+              autocomplete="current-password"
+              required
+            />
+          </div>
+
+          <button class="submit-button" type="submit">
+            Entrar
+            <span aria-hidden="true">→</span>
+          </button>
+        </form>
+
+        <p class="signup">Ainda não tem uma conta? <a href="#">Criar conta</a></p>
+      </section>
+    </main>
+  </body>
+</html>
